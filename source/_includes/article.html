@@ -1,0 +1,64 @@
+{% unless page.no_header %}
+  <header>
+    {% if index %}
+      <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+    {% else %}
+      <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+    {% endif %}
+    {% unless page.meta == false %}
+      <p class="meta">
+        {% include post/date.html %}{{ time }}
+        {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
+           | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread"
+             data-disqus-identifier="{% if post.meta.disqus_id %}{{ post.meta.disqus_id }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">Comments</a>
+        {% endif %}
+      </p>
+    {% endunless %}
+  </header>
+{% endunless %}
+{% if index %}
+  <div class="entry-content">{{ content | excerpt }}
+      {% if post.AmazonAdTerm %}
+      <script type="text/javascript">
+      amzn_assoc_placement = "adunit0";
+      amzn_assoc_search_bar = "false";
+      amzn_assoc_tracking_id = "geridoc-20";
+      amzn_assoc_ad_mode = "search";
+      amzn_assoc_ad_type = "smart";
+      amzn_assoc_marketplace = "amazon";
+      amzn_assoc_region = "US";
+      amzn_assoc_title = "Shop Related Products";
+      amzn_assoc_default_search_phrase = "{{ post.AmazonAdTerm }}";
+      amzn_assoc_default_category = "All";
+      amzn_assoc_linkid = "760fef27e4c736e321d06b2e09897001";
+      </script>
+      <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+      {% endif %}
+  </div>
+  {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+  {% if excerpted == 'true' %}
+    <footer>
+      <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
+    </footer>
+  {% endif %}
+{% else %}
+<div class="entry-content">
+  {{ content }}
+  {% if page.AmazonAdTerm %}
+  <script type="text/javascript">
+  amzn_assoc_placement = "adunit0";
+  amzn_assoc_search_bar = "false";
+  amzn_assoc_tracking_id = "geridoc-20";
+  amzn_assoc_ad_mode = "search";
+  amzn_assoc_ad_type = "smart";
+  amzn_assoc_marketplace = "amazon";
+  amzn_assoc_region = "US";
+  amzn_assoc_title = "Shop Related Products";
+  amzn_assoc_default_search_phrase = "{{ page.AmazonAdTerm }}";
+  amzn_assoc_default_category = "All";
+  amzn_assoc_linkid = "760fef27e4c736e321d06b2e09897001";
+  </script>
+  <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+  {% endif %}
+</div>
+{% endif %}

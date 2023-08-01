@@ -1,0 +1,25 @@
+INFO: No cache file found, creating it.
+INFO: Compiling list of local files...
+INFO: Running stat() and reading/calculating MD5 values on 207 files, this may take some time...
+INFO: Retrieving list of remote files for s3://geridoc.net/ ...
+INFO: Found 207 local files, 216 remote files
+INFO: Verifying attributes...
+INFO: Summary: 8 local files to upload, 0 files to remote copy, 9 remote files to delete
+WARNING: Module python-magic is not available. Guessing MIME types based on file extensions.
+upload: 'public/./atom.xml' -> 's3://geridoc.net/atom.xml'  [1 of 8]
+ 44881 of 44881   100% in    0s    39.89 MB/s 44881 of 44881   100% in    0s    49.96 KB/s  done
+upload: 'public/./blog/2022/11/06/how-screen-time-can-affet-your-health/index.html' -> 's3://geridoc.net/blog/2022/11/06/how-screen-time-can-affet-your-health/index.html'  [2 of 8]
+ 10404 of 10404   100% in    0s     6.82 MB/s 10404 of 10404   100% in    0s    41.02 KB/s  done
+upload: 'public/./blog/categories/fitness/atom.xml' -> 's3://geridoc.net/blog/categories/fitness/atom.xml'  [3 of 8]
+ 11009 of 11009   100% in    0s     6.00 MB/s 11009 of 11009   100% in    0s    32.29 KB/s  done
+upload: 'public/./blog/categories/health/atom.xml' -> 's3://geridoc.net/blog/categories/health/atom.xml'  [4 of 8]
+ 12602 of 12602   100% in    0s    18.40 MB/s 12602 of 12602   100% in    0s    40.65 KB/s  done
+upload: 'public/./blog/categories/pandemic/atom.xml' -> 's3://geridoc.net/blog/categories/pandemic/atom.xml'  [5 of 8]
+ 9816 of 9816   100% in    0s     5.14 MB/s 9816 of 9816   100% in    0s    52.99 KB/s  done
+upload: 'public/./blog/categories/vaccine/atom.xml' -> 's3://geridoc.net/blog/categories/vaccine/atom.xml'  [6 of 8]
+ 3900 of 3900   100% in    0s     3.00 MB/s 3900 of 3900   100% in    0s    22.60 KB/s  done
+upload: 'public/./blog/categories/wellness/atom.xml' -> 's3://geridoc.net/blog/categories/wellness/atom.xml'  [7 of 8]
+ 9629 of 9629   100% in    0s     4.45 MB/s 9629 of 9629   100% in    0s    43.56 KB/s  done
+upload: 'public/./index.html' -> 's3://geridoc.net/index.html'  [8 of 8]
+ 37504 of 37504   100% in    0s    21.42 MB/s 37504 of 37504   100% in    0s    89.37 KB/s  done
+Done. Uploaded 139745 bytes in 2.7 seconds, 49.65 KB/s.

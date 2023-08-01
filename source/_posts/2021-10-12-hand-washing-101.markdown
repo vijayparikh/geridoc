@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Hand Washing 101"
+date: 2021-10-12 16:41:34 -0500
+comments: true
+categories: pandemic
+AmazonAdTerm: hand soap
+---
+{% img /assets/images/handwash.jpg %}
+Photo by <a href="https://unsplash.com/@meljeanty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mélissa Jeanty</a>
+
+Throughout the day, we touch surfaces, objects, as well as other people and may accumulate germs which we can then spread to others as well as ourselves by touching our eyes, mouth, or nose. Hand washing keeps us safe and healthy by killing germs. The pandemic has brought the limelight to hand hygiene in the prevention of spread of COVID. Global handwashing day is observed each year on October 15th and is a good time to go over some quick pointers.
+
+###When should you wash your hands?
+- When you have been out (touched public doors, elevator buttons, gas pumps, grocery shopping)
+- Preparing food (also before and after eating)
+- After using the restroom
+- After blowing your nose or sneezing
+- Handling garbage
+- Touching your mask
+- Pet care
+
+###How to wash your hands?
+Use clean, running water for at least 20 seconds with soap and water, forming a good lather and scrubbing the front and back of your hands, between your fingers, and under your finger nails, and wrist. Rinse well afterwards and dry with a clean towel or air-dryer.
+
+###Are hand sanitizers okay?
+Hand sanitizers are a good alternative when out and about.  Use a hand sanitizer with at least 60% alcohol. Hand washing is always better than using a hand sanitizer as hand sanitizers do not get rid of all types of germs.
+
+###Should we moisturize our hands?
+For those who wash their hands frequently, like healthcare workers, it is important to keep up with moisturizing their hands to prevent dry skin.

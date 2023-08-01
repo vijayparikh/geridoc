@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Be Kind"
+date: 2022-08-28 13:40:03 -0500
+comments: true
+categories: wellness
+AmazonAdTerm: flowers
+---
+{% img /assets/images/bekind.jpg %}
+Photo by <a href="https://unsplash.com/@dtopkin1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dayne Topkin</a>
+
+Some things to keep in mind on National Thoughtful Day on August 28th and to follow all year round:
+
+- Be kind to others
+- Be considerate about others around you
+- Help others if you are in a position to help
+- Put yourselves in others shoes before reacting or saying something not so nice. Remember words can hurt.
+- Be on time if you have a meeting/commitment/event. Everyone's time is just as valuable as yours.
+- Smile
+- Be polite
+
+
+Being thoughtful has many [health benefits](http://geridoc.net/blog/2021/08/26/thoughtfulness-and-your-health/) and your thoughtfulness will not only brighten up someone else's day but also yours.
+
+####*"The simplest acts of kindness are by far more powerful than a thousand heads bowing in prayer.” -Mahatma Gandhi.*
