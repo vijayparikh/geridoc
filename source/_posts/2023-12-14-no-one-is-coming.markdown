@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""No one is coming""
+title: "No one is coming"
 date: 2023-12-14 15:58:50 -0600
 comments: true
 categories: wellness
